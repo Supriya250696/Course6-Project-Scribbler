@@ -3,12 +3,13 @@
 
 <head>
     <!-- TODO: Include Font Awesome file here -->
-     <script src="https://kit.fontawesome.com/3a11080fd4.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/3a11080fd4.js" crossorigin="anonymous"></script>
     <!-- TODO: Include Google Fonts file here -->
     <link href="https://fonts.googleapis.com/css2?family=Montez&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montez&family=Ubuntu+Mono&display=swap" rel="stylesheet">
 
     <link href='styles\index.css' rel='stylesheet' type='text/css'>
+    <link href='styles\common.css' rel='stylesheet' type='text/css'>
     <title>ScriBBler</title>
 </head>
 
@@ -26,9 +27,13 @@
                 <button onclick="showSignUpModal()" class="blue-button" type="button">Sign Up</button>
             </div>
         </div>
+        <div class="postButtons">
+            <!-- Insert code for All Posts & Create Post button here -->
+            <button onclick="navigateToBlogList()" class="yellow-button" type="button">All posts</button>
+            <button onclick="showCreatePost()" class="yellow-button" type="button">Create post</button>
+        </div>
 
-
-    </div>
+    
     </div>
 </body>
 
